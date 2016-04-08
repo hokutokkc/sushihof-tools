@@ -1,0 +1,5 @@
+Package: sushihof-tools  
+Version: 0.0.0
+Maintainer: Hokuto Kikuchi <hokutokkc@gmail.com>
+Architecture: all 
+Description: Sushihof Utilities 
