@@ -6,5 +6,4 @@ wget http://sushihof.de/debian/sushihof.gpg
 sudo apt-key add sushihof.gpg
 rm sushihof.gpg
 sudo apt-get update
-
 ```
