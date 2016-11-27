@@ -1,22 +1,6 @@
 #!/bin/bash -e
 BUILD=./package/BUILD
 DEST=./package
-usage() {
-  echo "Create Debian package"
-  echo "[Usage] ./package.sh"
-}
-
-
-while [ ! -z "$1" ] ; do
-  case $1 in
-  -h|--help)
-    usage
-    exit -1
-    ;;
-  esac
-  shift
-done
-
 source version.sh
 sed -i "s/Version:.*/Version: ${FULL_VERSION}/" package/control
 cat package/control
